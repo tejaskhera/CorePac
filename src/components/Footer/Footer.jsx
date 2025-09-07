@@ -2,7 +2,7 @@ import { useState } from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
-import logo from "../../assets/website/logo-main.png";
+import logo from "../../assets/logo.png";
 import Loader from "../Loader/Loder";
 
 const Footer = () => {
@@ -78,12 +78,7 @@ const Footer = () => {
               <img
                 src={logo}
                 alt="logo"
-                style={{
-                  width: "300px",
-                  height: "auto",
-                  maxWidth: "100%",
-                }}
-                className="footer-logo"
+                className="site-logo footer-logo"
               />
             </Link>
           </FooterBrand>
@@ -152,14 +147,35 @@ const Footer = () => {
       <style>
         {`
           @media (max-width: 768px) {
-            .footer-logo" {
+            .footer-logo {
               width: 300px !important;
             }
           }
           @media (max-width: 576px) {
-            .footer-logo" {
+            .footer-logo {
               width: 150px !important;
             }
+          }
+        `}
+      </style>
+      <style>
+        {`
+          /* shared responsive logo class */
+          .site-logo {
+            width: 200px;
+            height: auto;
+            max-width: 100%;
+            display: block;
+          }
+
+          @media (max-width: 1024px) {
+            .site-logo { width: 180px; }
+          }
+          @media (max-width: 768px) {
+            .site-logo { width: 140px; }
+          }
+          @media (max-width: 576px) {
+            .site-logo { width: 110px; }
           }
         `}
       </style>

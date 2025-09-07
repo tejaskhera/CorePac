@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { IoMdSearch } from "react-icons/io";
-import logo from "../../assets/website/logo.png";
+import logo from "../../assets/logo-no-bg.png";
 import Products from "../../constants/products";
 
 const Navbar = () => {
@@ -46,12 +46,7 @@ const Navbar = () => {
               <img
                 src={logo}
                 alt="logo"
-                style={{
-                  width: "300px",
-                  height: "auto",
-                  maxWidth: "100%",
-                }}
-                className="navbar-logo"
+                className="site-logo navbar-logo"
               />
             </Link>
           </Logo>
@@ -138,6 +133,27 @@ const Navbar = () => {
             .navbar-logo {
               width: 150px !important;
             }
+          }
+        `}
+      </style>
+      <style>
+        {`
+          /* shared responsive logo class */
+          .site-logo {
+            width: 200px;
+            height: auto;
+            max-width: 100%;
+            display: block;
+          }
+
+          @media (max-width: 1024px) {
+            .site-logo { width: 180px; }
+          }
+          @media (max-width: 768px) {
+            .site-logo { width: 140px; }
+          }
+          @media (max-width: 576px) {
+            .site-logo { width: 110px; }
           }
         `}
       </style>

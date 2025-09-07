@@ -439,7 +439,7 @@ export default function ProductPage({ product }) {
         <div class="page">
           <header class="header">
             <div class="logo-section">
-              <img src="https://i.postimg.cc/MTpYx13B/logo.png" alt="Logo" height="40px" width="40px" />
+              <img src="https://i.postimg.cc/bNth8xHZ/COREPAC.jpg" alt="Logo" height="40px" width="40px" />
               <span class="logo-text">CorePac USA</span>
             </div>
             <div class="date">${new Date().toLocaleDateString("en-US", {
@@ -528,14 +528,14 @@ x ${product.height ? formData.height : "N/A"} </div>
 
           <div class="contact-info">
             Need assistance? Contact us at
-            <a href="mailto:CorePac USAOfficial.help@gmail.com" class="contact-link">
-              CorePac USAOfficial.help@gmail.com
+            <a href="mailto:info@CorePacUSA.com" class="contact-link">
+              CorePac info@CorePacUSA.com
             </a>
           </div>
 
           <footer class="footer" style="margin-bottom: 200px">
             <p style="font-weight: 600; margin-bottom: 8px;">CorePac USA</p>
-            <p style="margin-bottom: 8px;">Noida, Uttar Pradesh 226013</p>
+            <p style="margin-bottom: 8px;">9816 E Colonical Dr, Orlando FL 32817, United States</p>
             <p>Copyright © ${new Date().getFullYear()}. All rights reserved.</p>
           </footer>
           
@@ -546,7 +546,7 @@ x ${product.height ? formData.height : "N/A"} </div>
         <div class="page">
           <header class="header">
             <div class="logo-section">
-              <img src="https://i.postimg.cc/MTpYx13B/logo.png" alt="Logo" height="40px" width="40px"/>
+              <img src="https://i.postimg.cc/bNth8xHZ/COREPAC.jpg" alt="Logo" height="40px" width="40px"/>
               <span class="logo-text">CorePac USA</span>
             </div>
           </header>
