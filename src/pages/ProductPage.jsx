@@ -734,8 +734,7 @@ x ${product.height ? formData.height : "N/A"} </div>
                   </span>
                 </div>
                 <PriceContainer>
-                  <CurrentPrices>RS 2,000.00</CurrentPrices>
-                  <OriginalPrices>RS 3,700.00</OriginalPrices>
+                  <CurrentPrices>On Request</CurrentPrices>
                 </PriceContainer>
                 {/* Show Description Button */}
                 <div className="mb-4 mt-4">
