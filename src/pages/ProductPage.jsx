@@ -905,7 +905,7 @@ x ${product.height ? formData.height : "N/A"} </div>
                       ([menuName, options]) => (
                         <div key={menuName}>
                           <p className="block font-medium mb-1 capitalize dark:text-white">
-                            {menuName} 
+                            {menuName} (Optional)
                           </p>
                           {options.map((option, index) => (
                             <label
