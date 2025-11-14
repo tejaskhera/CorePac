@@ -23,7 +23,7 @@ const Contact = () => {
               <FaMapMarkerAlt />
             </ContactIcon>
             <ContactCardTitle>Office</ContactCardTitle>
-            <ContactCardText>9816 E Colonical Dr, Orlando FL 32817, United States5</ContactCardText>
+            <ContactCardText>9816 E Colonical Dr, Orlando FL 32817, United States</ContactCardText>
           </ContactCard>
           
           <ContactCard data-aos="fade-up" data-aos-delay="300">

@@ -11,19 +11,19 @@ const FAQ = () => {
 
   const faqs = [
     {
-      question: 'What is your Minimum Order Quantity',
+      question: 'What is your Minimum Order Quantity?',
       answer: 'There is no MOQ with CorePac. We serve individual customers also with varying requirements and of all categories.'
     },
     {
-      question: 'What is your TAT from Order Placement to Delivery',
-      answer: 'Our TAT is one of the best in the industry. TAT varies based on requirements and quantity. It usually varies between 7 to 15 working days.'
+      question: 'What is your Turn Around Time from Order Placement to Delivery?',
+      answer: 'Our Turn Around Time is one of the best in the industry. TAT varies based on requirements and quantity. It usually varies between 7 to 15 working days.'
     },
     {
-      question: 'Does your company use eco-friendly material as well',
+      question: 'Does your company use eco-friendly material as well?',
       answer: 'Yes, one of our major objectives is to achieve sustainability and we procure environemnt friendly materials from all across the globe.'
     },
     {
-      question: 'Do you provide designing services as well',
+      question: 'Do you provide designing services as well?',
       answer: 'Yes, feel free to reach out to our team so we can understand your requirements.'
     }
   ];
