@@ -24,7 +24,7 @@ const Testimonials = () => {
     <TestimonialsSection>
       <div className="container">
         <SectionTitle data-aos="fade-up">Our Testimonials</SectionTitle>
-        <SectionSubtitle data-aos="fade-up">Here it from those who know</SectionSubtitle>
+        <SectionSubtitle data-aos="fade-up">Hear it from those who know</SectionSubtitle>
         
         <TestimonialsContainer>
           {testimonials.map((testimonial, index) => (
