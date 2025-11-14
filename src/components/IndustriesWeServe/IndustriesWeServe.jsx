@@ -112,7 +112,9 @@ const IndustriesWeServe = () => {
 
         <CTASection data-aos="fade-up">
           <CTAText>Ready to elevate your brand with custom packaging?</CTAText>
+          <Link to="/products" style={{ textDecoration: 'none' }}></Link>
           <CTAButton>Get Started Today</CTAButton>
+          </Link>
         </CTASection>
       </div>
     </IndustriesSection>
