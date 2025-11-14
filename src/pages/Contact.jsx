@@ -104,7 +104,7 @@ export default function ContactPage() {
     <div className="min-h-screen bg-white dark:bg-gray-950 text-gray-900 dark:text-white">
       <div className="container mx-auto px-4 py-16">
         <h1 className="text-4xl font-bold mb-8 text-center">
-          Contact CorePac USA°
+          Contact CorePac USA
         </h1>
 
         <div className="grid md:grid-cols-2 gap-12">
@@ -116,7 +116,7 @@ export default function ContactPage() {
             />
 
             <h2 className="text-2xl font-semibold mb-4">
-              Welcome to CorePac USA°
+              Welcome to CorePac USA
             </h2>
             <p className="mb-6">
               Where innovation meets precision in the world of printing and
