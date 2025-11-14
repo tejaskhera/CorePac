@@ -587,7 +587,7 @@ const Products = [
     id: 8,
     name: "Printed Rigid Gift Boxes",
     type: "Customised Packaging",
-    basePrice: 0.5,
+    basePrice: Customisable,
     currentPrice: 2000,
     originalPrice: 3000,
     height: true,
