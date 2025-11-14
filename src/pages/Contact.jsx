@@ -136,7 +136,7 @@ export default function ContactPage() {
               </div>
               <div className="flex items-center">
                 <FiMapPin className="mr-2" />
-                <span>9816 E Colonical Dr, Orlando FL 32817, United States5</span>
+                <span>9816 E Colonical Dr, Orlando FL 32817, United States</span>
               </div>
             </div>
           </div>

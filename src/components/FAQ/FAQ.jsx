@@ -11,20 +11,20 @@ const FAQ = () => {
 
   const faqs = [
     {
-      question: 'Can I change my plan later?',
-      answer: 'Yes, you can upgrade or downgrade your plan at any time. Changes will be reflected in your next billing cycle.'
+      question: 'What is your Minimum Order Quantity',
+      answer: 'There is no MOQ with CorePac. We serve individual customers also with varying requirements and of all categories.'
     },
     {
-      question: 'What is your cancellation policy?',
-      answer: 'You can cancel your subscription at any time. There are no cancellation fees, but we do not provide refunds for partial months.'
+      question: 'What is your TAT from Order Placement to Delivery',
+      answer: 'Our TAT is one of the best in the industry. TAT varies based on requirements and quantity. It usually varies between 7 to 15 working days.'
     },
     {
-      question: 'How does billing work?',
-      answer: 'We bill on a monthly basis. You will be charged on the same date each month based on your signup date.'
+      question: 'Does your company use eco-friendly material as well',
+      answer: 'Yes, one of our major objectives is to achieve sustainability and we procure environemnt friendly materials from all across the globe.'
     },
     {
-      question: 'How do I change my account email?',
-      answer: 'You can change your account email in your profile settings. After changing, you will need to verify your new email address.'
+      question: 'Do you provide designing services as well',
+      answer: 'Yes, feel free to reach out to our team so we can understand your requirements.'
     }
   ];
 
